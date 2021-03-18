@@ -96,6 +96,7 @@ nav a:hover {
 .single-box:nth-child(1) .img-area
 {
     background-image: url(photos/python.png);
+    
 }
 .single-box:nth-child(2) .img-area
 {
@@ -110,6 +111,40 @@ nav a:hover {
     background-image: url(photos/java.png);
 }
 
+.single-box:nth-child(1):hover
+{
+    background-image: linear-gradient(#0a5cfc,#fde83a);
+    
+}
+.single-box:nth-child(2):hover
+{
+    background-image: linear-gradient(#2460A7FF,#FFFFFF);
+}
+.single-box:nth-child(3):hover
+{
+    background-image: linear-gradient(#0a5cfc,#B3C7D6FF);
+}
+.single-box:nth-child(4):hover
+{
+    background-image: linear-gradient(#ff6600,#3399ff);
+}
+
+.single-box:nth-child(1) .clickhereinsinle-box
+{
+    font-size: 30px;
+}
+.single-box:nth-child(2) .clickhereinsinle-box
+{
+    font-size: 30px;
+}
+.single-box:nth-child(3) .clickhereinsinle-box
+{
+    font-size: 30px;
+}
+.single-box:nth-child(4) .clickhereinsinle-box
+{
+    font-size: 30px;
+}
 .header-text
 {
     font-size: 24px;
@@ -131,6 +166,7 @@ nav a:hover {
 {
    background-color:rgb(207, 150, 104);
    transform: scale(1.1);
+   
 }
 .box-area-2
 {

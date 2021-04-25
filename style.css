@@ -200,7 +200,7 @@ nav a:hover {
 }
 .single-box-2:nth-child(1) .img-area
 {
-    background-image: url(photos/webdeviamge.jpg);
+    background-image: url(photos/webdev.jpeg);
 }
 .single-box-2:nth-child(2) .img-area
 {
@@ -346,14 +346,7 @@ section h3
     font-size: 35px;
     padding-right:15px;
 }
-.GEEKSFORGEEKS
-{
-    opacity: 0.7;
-}
-.GEEKSFORGEEKS:hover
-{
-    opacity: 1;
-}
+
 #gfg
 {
     text-overflow: clip;
@@ -427,6 +420,51 @@ section h3
    
    
   }
+  .container {
+
+    padding-right: 15px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  .subscribe-area {
+    position: relative;
+    z-index: 1;
+}
+
+.pt-100, .ptb-100 {
+    padding-top: 100px;
+}
+.ptb-100 {
+    padding-bottom: 100px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+
+#subscribe-image-hai
+{
+    width: 100%;
+}
+#fk{position:absolute; height: 900px; right:-10px; bottom: -5px; z-index: 9;}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
 footer {
     background-color: black;
     overflow: hidden;

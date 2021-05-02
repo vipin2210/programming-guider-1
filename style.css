@@ -9,15 +9,20 @@ body {
     min-height: 100vh;
 }
 
-.container-fluid h1 {
-    text-align: center;
-    font-size: 40px;
-    color:whitesmoke;
-    font-weight: bolder;
+#logo_programming_guider
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+    
+
 }
-.container-fluid {
-    padding:20px;
-    background-image: linear-gradient(180deg,#a517ba,#5f1782);
+
+.header_logo {
+    padding: 5px;
+    background-image: linear-gradient(180deg,#000000,#000000);
 }
 
 nav {
@@ -177,8 +182,7 @@ nav a:hover {
     padding-top: 10px;
 
 }
-.img-text p
-{
+.img-text p {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
@@ -239,7 +243,12 @@ background-color: #e98fff;
     transition: .3s;
 
 }
-
+.single-box-2:hover
+{
+   background-color:rgb(207, 150, 104);
+   transform: scale(1.1);
+   
+}
 #clickonimage
 {
     font-size:2vw;
@@ -371,6 +380,7 @@ section h3
 }
 #ak
 {
+    text-align: center;
     font-weight: bolder;
     font-variant:normal;
     font-style: oblique;

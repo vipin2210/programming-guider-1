@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -25,8 +29,8 @@
 </head>
 <body>
   
-    <div class="container-fluid">
-        <h1>Programming Guider</h1>
+    <div class="header_logo">
+        <img id="logo_programming_guider" src="photos/LOGO.png" alt="logo">
     </div> 
     
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -223,19 +227,59 @@
             
              <hr style="height:10px;border-width:3px;color:gray;background-color:rgb(224, 118, 57)">
             
-            <p style="font-size: 2vw;"id="ak"> If you like video editorials then this playlist helps you.</p>
-            <a target="b_block" href="https://www.youtube.com/embed/z9bZufPHFLU"><img src="photos/c++placement course.jpg" alt="cp image" width="20%" ></a>
-            <br>
-            <a  id="cplink"target="b_block" href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"><button type="button" class="btn btn-danger">Playlist Link</button></a>
+            <p style="font-size: 2vw;" id="ak"> If you like video editorials then this playlist helps you.</p>
+            <div>
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a  target="_blank"href="https://www.youtube.com/channel/UCu4ztYtW-Bg1KIfcLAULtVQ"><img src="photos/Data Structure by Saurabh Shukla Sir.png"></a>
+                </div>
+        
+                <div class="item">
+                  <a target="_blank" href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"><img src="photos/Untitled design.png"></a>
+                    
+                </div>
+        
+                <div class="item">
+                    <img src="photos/ygs6_bnjy_180308.jpg">
+                </div>
+        
+                <div class="item">
+                    <img src="photos/ygs6_bnjy_180308.jpg">
+                </div>
+        
+                <div class="item">
+                    <img src="photos/ygs6_bnjy_180308.jpg">
+                </div>
+        
+                <div class="item">
+                    <img src="photos/ygs6_bnjy_180308.jpg">
+                </div>
+        
+                <div class="item">
+                    <img src="photos/ygs6_bnjy_180308.jpg">
+                </div>
+        
+                <div class="item">
+                    <img src="photos/ygs6_bnjy_180308.jpg">
+                </div>
+                
+             </div>
+            </div>
+        
             <br>
             <hr style="height:1px;border-width:5px;color:gray;background-color:gray">
             <h4 id="note">NOTE-* if you follow this resources you will definately grasp your hand on data Sturctures and Algortihms</h4>
             <hr style="height:1px;border-width:5px;color:gray;background-color:gray">
-        </section>
+        </section>  
+        <br>  
+      <section>
+
+        
+      </section>
   
         <span id="arrow">&#8681;</span>
 
-        <section id="CP">
+      <section id="CP">
           <h1>Competitive Programming</h1>
           <div class="subscribe-area ptb-100">
             <div class="container">
@@ -256,21 +300,21 @@
               </div>
             </div>
             </div>
-        </section>
+      </section>
 
-        <section id="FCR">
+      <section id="FCR">
          <h1>Free courses resources</h1>
          <h4>coming soon....</h4>
-       </section>
+      </section>
        
 
-       <section id="OSC">
+      <section id="OSC">
          <h1>Open Source Develpoment</h1>
          <h4>coming soon...</h4>
-       </section>
+      </section>
 
 
-     
+    </main>
     <footer>
         <a href="#">FAQ</a>
         <a href="#">Contact Us</a>
@@ -279,6 +323,28 @@
         <a href="#">Refund Policy</a>
         <a href="#">&copy; 2020 | Rohan Kumar</a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+     $('.owl-carousel').owlCarousel({
+     loop:false,
+     margin:10,
+     stagePadding:5,
+     nav:false,
+     responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+      }
+     })
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>

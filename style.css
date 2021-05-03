@@ -405,6 +405,10 @@ section h3
     justify-content: center;
 }
 
+#dsa_youtubechannels_logo
+{
+    text-align: center;
+}
 #note
 {
     text-align: center;
@@ -412,6 +416,7 @@ section h3
     color:white;
     font-weight: bold;
 }
+
 #freecourses
 {
     background-image: linear-gradient(13deg,#8fb2ff, rgb(214, 116, 198));

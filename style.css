@@ -55,6 +55,11 @@ nav a:hover {
 {
     background-color: rgb(216, 208, 208);
 }
+#pro_guider
+{
+    font-weight: bold;
+    font-family: fantasy;
+}
 .box-area
 {
     display: flex;
@@ -276,26 +281,7 @@ section h3
 
 }
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
-    position:;
-    top: 100%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  
-  /* Style the icon bar links */
-  .icon-bar a {
-    display: inline;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-  }
-  
-  /* Style the social media icons with color, if you want */
-  
+
 #dev
 {
     background-color:#DDF2F4;
@@ -479,7 +465,77 @@ div {
 ::-webkit-scrollbar-thumb {
     background: red;
 }
+#FCR
 
+{
+    background-color: black;
+    padding-bottom: 10px;
+    color:white;
+}
+.team-section
+{
+    background-color: #333;
+}
+#rohankumarteamsection
+{
+    font-size: 40px;
+    margin-top: 20px;
+    color:#e74c3c;
+    text-align: center;
+
+}
+#vipinteamsection
+{
+    font-size: 40px;
+    margin-top: 20px;
+    color:#e74c3c;
+    text-align: center;
+}
+.team-section
+{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap; 
+}
+.card
+{
+    height: 500px;
+    width: 290px;
+    margin:20px;
+    box-shadow: 0 3px 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #222;
+}
+.card .bg-image img
+{
+    width: 500px;
+    height: 230px;
+    object-fit:cover;
+    clip-path: polgon(0 0,100% 70%,45% 100%,0 70%);
+}
+.card .pic img
+{
+    height: 120px;
+    width: 150px;
+    
+    
+    margin-top: -90px;
+    position: relative;
+
+}
+.card .info .icon a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#e74c3c;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+.card .info .icon a:hover
+{
+    color:#f0f0f0f0;
+}
 footer {
     background-color: black;
     overflow: hidden;

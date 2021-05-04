@@ -491,6 +491,13 @@ div {
     color:#e74c3c;
     text-align: center;
 }
+#teamsection
+{
+    font-size: 50px;
+    font-weight: bolder;
+    color:#e74c3c;
+
+}
 .team-section
 {
    display: flex;
